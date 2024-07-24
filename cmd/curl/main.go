@@ -9,7 +9,7 @@ import (
 	"runtime"
 )
 
-//go:generate curl -LO https://cosmo.zip/pub/cosmos/bin/curl
+//go:generate curl -LO https://cosmo.zip/pub/cosmos/v/3.3.1/bin/curl
 //go:embed curl
 var curl []byte
 
